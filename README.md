@@ -34,7 +34,7 @@ The dataset consists of 500 social media posts related to Lawrence Technological
 - Identified recurring negative themes such as **poor communication and outdated systems**  
 - Positive sentiment driven by **faculty support and academic experience**
 
-## 📊 Visualizations
+## Visualizations
 
 ### Overall Sentiment Distribution
 ![Overall Distribution](overall_distribution.png)
