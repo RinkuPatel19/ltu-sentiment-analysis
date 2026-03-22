@@ -32,7 +32,21 @@ The dataset consists of 500 social media posts related to Lawrence Technological
   - Negative: 43%  
   - Neutral: 11%  
 - Identified recurring negative themes such as **poor communication and outdated systems**  
-- Positive sentiment driven by **faculty support and academic experience**  
+- Positive sentiment driven by **faculty support and academic experience**
+
+## 📊 Visualizations
+
+### Overall Sentiment Distribution
+![Overall Distribution](overall_distribution.png)
+
+### Monthly Sentiment Trends
+![Monthly Trends](monthly_trends.png)
+
+### Word Cloud
+![Word Cloud](wordcloud.png)
+
+### Classification Report
+![Classification Report](classification_report.png)
 
 ## Key Insights
 - Negative sentiment peaks during academic stress periods (e.g., midterms)  
