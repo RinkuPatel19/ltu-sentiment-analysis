@@ -1,7 +1,17 @@
 # Social Media Sentiment Analysis – Lawrence Technological University
 
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Status](https://img.shields.io/badge/Status-Completed-green)
+
 ## Overview
 In this project, I analyzed social media feedback related to Lawrence Technological University using Natural Language Processing (NLP) techniques. I classified posts into positive, negative, and neutral sentiments using TextBlob, achieving 92% accuracy. The analysis helped identify key themes such as communication challenges and positive academic experiences. Overall, this project demonstrates how unstructured text data can be transformed into actionable insights for better decision-making.
+
+## Key Features
+- Automated sentiment classification using NLP techniques  
+- End-to-end pipeline from data cleaning to visualization  
+- Trend analysis across time and platforms  
+- Identification of key themes using n-grams and word clouds  
+- Business-focused insights for decision-making  
 
 ## Problem Statement
 Universities receive large volumes of unstructured feedback from platforms like Twitter, Reddit, and Glassdoor. However, manually analyzing this data is time-consuming and inefficient, making it difficult to understand overall sentiment and identify key issues. This project aims to automate sentiment analysis to help institutions better understand user opinions and improve decision-making.
@@ -15,7 +25,12 @@ Universities receive large volumes of unstructured feedback from platforms like 
 - Jupyter Notebook  
 
 ## Dataset
-The dataset consists of 500 social media posts related to Lawrence Technological University, collected from platforms such as Twitter, Reddit, and Glassdoor. Each record includes text content, platform, date, and sentiment labels. The dataset is designed to simulate real-world user feedback with a balanced distribution of positive, negative, and neutral sentiments.
+The dataset consists of 500 synthetic social media posts related to Lawrence Technological University, designed to simulate real-world feedback from platforms such as Twitter, Reddit, and Glassdoor. Each record includes text content, platform, date, and sentiment labels.
+
+**Note:** The dataset is synthetic and created for analysis purposes.
+
+## Project Workflow
+Data Collection → Data Cleaning → Text Preprocessing → Sentiment Analysis → Visualization → Insights & Business Impact
 
 ## Approach
 - Cleaned and preprocessed text data (stopword removal, lemmatization, normalization)  
@@ -23,7 +38,7 @@ The dataset consists of 500 social media posts related to Lawrence Technological
 - Classified data into positive, negative, and neutral categories  
 - Performed exploratory analysis to identify trends over time  
 - Conducted n-gram analysis to extract key words and phrases  
-- Built visualizations to analyze sentiment distribution and trends
+- Built visualizations to analyze sentiment distribution and trends  
 
 ## Results
 - Achieved **92% sentiment classification accuracy**  
@@ -65,6 +80,14 @@ The dataset consists of 500 social media posts related to Lawrence Technological
 - sentiment_analysis_report.pdf  
 - sentiment_analysis_presentation.pptx  
 
+## How to Run
+1. Clone the repository  
+2. Install required libraries:  
+   `pip install pandas nltk textblob matplotlib seaborn scikit-learn`  
+3. Open the notebook:  
+   `jupyter notebook sentiment_analysis.ipynb`  
+4. Run all cells to reproduce results  
+
 ## Future Improvements
 - Implement advanced NLP models (BERT, RoBERTa)  
 - Integrate real-time social media data using APIs  
@@ -73,4 +96,4 @@ The dataset consists of 500 social media posts related to Lawrence Technological
 
 ## Author
 **Rinku Patel**  
-Data Analyst | Power BI | SQL | Python | Tableau  
+Data Analyst | Python | SQL | Power BI | Tableau  
