@@ -36,13 +36,13 @@ The dataset consists of 500 social media posts related to Lawrence Technological
 
 ## Visualizations
 ### Overall Sentiment Distribution
-<img src="overall_distribution.png" width="400">
+<img src="overall_distribution.png" width="200">
 
 ### Monthly Sentiment Trends
-<img src="monthly_trends.png" width="400">
+<img src="monthly_trends.png" width="500">
 
 ### Word Cloud
-<img src="wordcloud.png" width="400">
+<img src="wordcloud.png" width="500">
 
 ### Classification Report
 <img src="classification_report.png" width="400">
