@@ -35,11 +35,17 @@ The dataset consists of 500 social media posts related to Lawrence Technological
 - Positive sentiment driven by **faculty support and academic experience**
 
 ## Visualizations
+### Overall Sentiment Distribution
+<img src="overall_distribution.png" width="400">
 
-![Overall Distribution](overall_distribution.png)
-![Monthly Trends](monthly_trends.png)
-![Word Cloud](wordcloud.png)
-![Classification Report](classification_report.png)
+### Monthly Sentiment Trends
+<img src="monthly_trends.png" width="400">
+
+### Word Cloud
+<img src="wordcloud.png" width="400">
+
+### Classification Report
+<img src="classification_report.png" width="400">
 
 ## Key Insights
 - Negative sentiment peaks during academic stress periods (e.g., midterms)  
